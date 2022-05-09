@@ -1,0 +1,124 @@
+:root {
+    /* -----COLOR PALETTE----- */
+--clr-darkest: rgba(3, 7, 30, 1);
+--clr-dark-sienna: rgba(55, 6, 23, 1);
+--clr-rosewood: rgba(106, 4, 15, 1);
+--clr-dark-crimson: rgba(157, 2, 8, 1);
+--clr-rosso-corsa: rgba(208, 0, 0, 1);
+--clr-vermilion: rgba(220, 47, 2, 1);
+--clr-persimmon: rgba(232, 93, 4, 1);
+--clr-tangerine: rgba(244, 140, 6, 1);
+--clr-orange-web: rgba(250, 163, 7, 1);
+--clr-selective-yellow: rgba(255, 186, 8, 1);
+--clr-white: rgba(255, 255, 255, 1)
+};
+
+* {
+    font-family: 'montserrat';
+    text-align: center;
+    background-color: chartreuse;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'montserrat';
+    font-weight: bolder;
+    font-size: 6rem;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'montserrat subrayada';
+    font-weight: 900;
+    color: black;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: 'montserrat';
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 1px var(--clr-darkest);
+ }
+
+ .fa-solid {
+     justify-content: space-evenly;
+     display: inline-block;
+     padding: 0 1em;
+ }
+
+ .footer {
+     display: flex;
+     align-items: right;
+     text-align: right;
+ }
+
+ .header {
+     margin: 1.25em;
+ }
+
+ .head-wrap {
+    position: relative;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+}
+
+.menu-items {
+    display: flex;
+    margin-left: .5em;
+    align-items: flex-end;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: .75rem;
+}
+
+
+.subtitle.centered {
+    color: var(--clr-white);
+    transform: translate(-50%, 300%);
+  }
+
+  .nav-bar {
+      display: flex;
+  }
+
+  
+ 
+
+  p.footer-text {
+      color: var(--clr-vermilion);
+      min-width: 97%;
+      font-family: 'Montserrat';
+      font-size: small;
+  }
+
+  #bold {
+      font-weight: bolder;
+  }
